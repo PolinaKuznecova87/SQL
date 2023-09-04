@@ -41,6 +41,7 @@ class BankLoginTestTest {
         loginPage.verifyErrorNotificationVisibility();
 
     }
+
     @Test
     @DisplayName("Should get error notification if login with exist in base and activ user and random verificationCode")
     void shouldGetErrorNotificationIfLoginWithExistUserAndRandomVerificationCode() {
